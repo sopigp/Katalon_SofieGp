@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Login_cilsy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ebae72c-f140-4068-9b17-0e612ba4296d</testCaseGuid>
+   <variable>
+      <defaultValue>'sopigp@gmail.com'</defaultValue>
+      <description></description>
+      <id>c6736096-07ce-48c0-a6b2-c19e76b18ba8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'RigbBhfdqOBGNlJIWM1ClA=='</defaultValue>
+      <description></description>
+      <id>b26f1f37-e29d-437f-a52d-3ec568e7df7d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

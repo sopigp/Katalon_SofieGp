@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Negative - 2</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>9b1404e4-eca6-47f8-a9cc-c5342ca1e506</testSuiteGuid>
+   <testCaseLink>
+      <guid>cab69fda-8ccb-4e14-b2c7-70c4a1ed53b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Small_Project_1/Navigate_to_url</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eb6afefe-80bc-45f0-b4b4-f38948f232b9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Small_Project_1/Negative_CreditDebit_Card - 2</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5209df27-b1f2-4aa6-b4d0-11299d8c4fac</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b335d45f-55fe-4021-9253-0b64f4d10271</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3bb0138-8ef6-41c1-a09e-5783be8799a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>61aeee94-a750-437e-acc4-fb7533af22be</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1b7be0e6-18c8-4a93-ad89-5f11526959ef</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>68813894-5048-44a3-9ff3-1de3f45ccd28</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8c4bc834-3e75-48d8-8412-f28f8203c61b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>058d7015-6026-42e1-8615-663ce7bf4988</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>26d90d6b-46d4-4e3e-9d60-73110cc31c97</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab7bd788-28bc-474c-b7f3-d7a070e66b6e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Small_Project_1/Navigate_close_url</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

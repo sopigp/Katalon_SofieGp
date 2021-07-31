@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_issuing_bank_password</name>
+   <tag></tag>
+   <elementGuidId>7b22f5a0-e8b5-4e7e-bbbf-097ac1cac11c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//label[.='Password:']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[for='PaRes']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//label[.='Password:']</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+</WebElementEntity>

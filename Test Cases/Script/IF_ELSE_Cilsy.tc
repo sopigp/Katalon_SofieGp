@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IF_ELSE_Cilsy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9757bdbd-d83e-47aa-9fd9-ed8ecabdda29</testCaseGuid>
+   <variable>
+      <defaultValue>'qaengineer@mailinator.com'</defaultValue>
+      <description></description>
+      <id>ec51d337-f894-4c5d-8ba9-14289725f84b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'tester123'</defaultValue>
+      <description></description>
+      <id>fa1b0ffd-f15e-4a80-870d-924c3af2756d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

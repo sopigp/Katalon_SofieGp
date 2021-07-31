@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://demo.midtrans.com/'</initValue>
+      <name>url_midtrans</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'span'</initValue>
+      <name>actual</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'span'</initValue>
+      <name>expected</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'span'</initValue>
+      <name>actual_order_summary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'span'</initValue>
+      <name>expected_order_summary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'25,000'</initValue>
+      <name>amount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Thank you for your purchase.'</initValue>
+      <name>popup_success_transaction</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

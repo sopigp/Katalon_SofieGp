@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>navbar_dashboard</name>
+   <tag></tag>
+   <elementGuidId>f0ade1c1-614e-4dcf-afcb-5273c1e83fa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class='header-menu']//a[contains(.,'Dashboard')][count(. | //*[@class = 'hello-user']) = count(//*[@class = 'hello-user'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class='header-menu']//a[contains(.,'Dashboard')]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hello-user</value>
+   </webElementProperties>
+</WebElementEntity>

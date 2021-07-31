@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Login_Negative_OrangeHRM</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7898cab7-86d7-4adf-9b49-e4ba2be841f8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fef5345-b867-4060-add6-861d220de7d2</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>297a02bc-2c84-4bd1-8f51-e3ad6daddad1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

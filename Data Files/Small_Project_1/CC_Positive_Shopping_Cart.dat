@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>CC_Positive_Shopping_Cart</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c6ffcebf-3e9e-486f-a8bd-726863bdf9e3</dataFileGUID>
+   <dataSourceUrl>D:\SEKOLAH QA\CATATAN\Pert 12_19 Juli 2021 (SMALL PROJECT 1)\Shopping_Cart_CC.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

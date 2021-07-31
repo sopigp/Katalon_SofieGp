@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_order_summary_amount</name>
+   <tag></tag>
+   <elementGuidId>14a1373d-61a5-4f59-9a27-d36a0257c1a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class='text-amount-amount'][count(. | //span[@class = 'text-amount-amount']) = count(//span[@class = 'text-amount-amount'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.text-amount-amount</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-amount-amount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@class='text-amount-amount']</value>
+   </webElementProperties>
+</WebElementEntity>
