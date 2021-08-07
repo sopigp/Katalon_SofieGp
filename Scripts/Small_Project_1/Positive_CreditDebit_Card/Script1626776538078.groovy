@@ -46,19 +46,13 @@ for (def row_datafiles = 1; row_datafiles <= data.getRowNumbers(); row_datafiles
 
     String actual = '25,000'
 
-    int amount = 25000
-
     harga_web = harga_web.replace('Rp.', '')
+
+    harga_web = harga_web.replace(' ', '')
 
     harga_web = harga_web.replace(',', '')
 
-    int hargaActual = integer.valueOf(harga_web)
-
-    System.out.print(hargaActual)
-
-    // WebUI.verifyElementText(findTestObject('Small_Project_1/Shopping_Cart/lbl_amount'), GlobalVariable.amount)
-    hargaActual = WebUI.verifyMatch(WebUI.getText(findTestObject('Small_Project_1/Shopping_Cart/lbl_amount')), data.getValue(
-            'midtrans_pillow', row_datafiles), false)
+    WebUI.verifyMatch(harga_web, data.getValue('midtrans_pillow', row_datafiles), false)
 
     WebUI.setText(findTestObject('Small_Project_1/Shopping_Cart/shopping_cart_name'), data.getValue('name', row_datafiles))
 

@@ -16,7 +16,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
 
-Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Cilsy_sofieGp\\Data Files\\Apk Android\\Simple Calculator.apk', 
-    false)
+//Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Cilsy_sofieGp\\Data Files\\Apk Android\\Simple Calculator.apk', 
+//    false)
 
+Path currentRelativePath = Paths.get("");
+String s = currentRelativePath.toAbsolutePath().toString();
+System.out.println("Current absolute path is: " + s);
+s = s . "Data Files\\Apk Android\\Simple Calculator.apk"
+Mobile.startApplication('s', false)

@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c6ffcebf-3e9e-486f-a8bd-726863bdf9e3</dataFileGUID>
-   <dataSourceUrl>D:\SEKOLAH QA\CATATAN\Pert 12_19 Juli 2021 (SMALL PROJECT 1)\Shopping_Cart_CC.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\SEKOLAH QA\CATATAN\Pert 12_19 Juli 2021 (SMALL PROJECT 1)\Doc_Presentation_SP1\Shopping_Cart_CC.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
