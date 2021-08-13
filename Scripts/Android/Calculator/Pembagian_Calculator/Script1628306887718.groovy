@@ -17,3 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.tap(findTestObject('Android/Calculator/btn_8'), 0)
+
+Mobile.tap(findTestObject('Android/Calculator/opr_bagi'), 0)
+
+Mobile.tap(findTestObject('Android/Calculator/btn_2'), 0)
+
+Mobile.tap(findTestObject('Android/Calculator/equal'), 0)
+
+String value = Mobile.getText(findTestObject('Android/Calculator/txt_view'), 0)
+
+if (value == '4') {
+    Mobile.verifyElementVisible(findTestObject('Android/Calculator/txt_view'), 0)
+} else if (value != '4') {
+    System.out.println('Output tidak sesuai')
+} else {
+    Mobile.tap(findTestObject('Android/Calculator/btn_clear'), 0)
+}
+
+Mobile.tap(findTestObject('Android/Calculator/btn_clear'), 0)
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_LoginFacebook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7e6142a-bcbe-40ab-9ff4-61e3ebfd31fd</testCaseGuid>
+   <variable>
+      <defaultValue>'Sofie Pratiwi'</defaultValue>
+      <description></description>
+      <id>bccaeb47-ab07-4c16-90b7-fda113658040</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

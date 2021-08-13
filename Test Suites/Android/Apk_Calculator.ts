@@ -12,33 +12,33 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>d13a74e6-16f0-40a2-9b8e-fa07b9ba1e80</testSuiteGuid>
    <testCaseLink>
-      <guid>99e87e01-8778-4ba9-943e-4362b3712eeb</guid>
+      <guid>e2bf1196-6a95-4fcb-bcc5-63a114e6e6cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Start_Apk_Android_Calculator</testCaseId>
+      <testCaseId>Test Cases/Android/Calculator/Start_Apk_Android_Calculator</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2c73a82-aa5e-4498-b3a1-2de5c4ac9eab</guid>
+      <guid>35e816ef-a4c1-4d43-aac7-8d9df399e835</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Pembagian_Calculator</testCaseId>
+      <testCaseId>Test Cases/Android/Calculator/Pertambahan_Calculator</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7d096f3e-30ec-44b5-9d8a-e7ccbac7d219</guid>
+      <guid>8db8b91d-cd70-4aab-968b-1926ec84255e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Pengurangan_Calculator</testCaseId>
+      <testCaseId>Test Cases/Android/Calculator/Perkalian_Calculator</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6b2a2edb-1c7a-4e50-b07c-54854aad1afd</guid>
+      <guid>eef11345-a4b6-42ec-a441-c950c19da503</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Perkalian_Calculator</testCaseId>
+      <testCaseId>Test Cases/Android/Calculator/Pengurangan_Calculator</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>f4a833d6-9170-4c00-9a3a-644d0de683ea</guid>
+      <guid>5de57182-007b-4932-8671-9116789a6cdc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android/Pertambahan_Calculator</testCaseId>
+      <testCaseId>Test Cases/Android/Calculator/Pembagian_Calculator</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
