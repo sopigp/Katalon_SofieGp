@@ -16,36 +16,49 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.nio.file.Path as Path
+import java.nio.file.Paths as Paths
 
-Mobile.startExistingApplication('com.foody.vn.activity', FailureHandling.STOP_ON_FAILURE)
+Path currentRelativePath = Paths.get("");
+def s = currentRelativePath.toAbsolutePath().toString();
+System.out.println("Current absolute path is: " + s);
+s = s + "\\Data Files\\Apk Android\\Foody Find Reserve Delivery_v5.8.7_apkpure.com.apk"
+System.out.println("Current absolute path is: " + s);
+Mobile.startApplication(s, false)
 
-Mobile.tap(findTestObject('Object Repository/Android/Foody/android.widget.ImageView'), 30)
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Android/Foody/android.widget.TextView - Login'), 0)
+Mobile.tap(findTestObject('Android/Foody/Login/btn_user'), 30)
 
-Mobile.tap(findTestObject('Object Repository/Android/Foody/android.widget.TextView - Connect with Facebook'), 0)
+Mobile.tap(findTestObject('Android/Foody/Login/btn_login'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Android/Foody/android.widget.EditText'), 'peterpan_sofie_vhiterband@yahoo.com', 
+//Mobile.tap(findTestObject('Android/Foody/Login/btn_ connect_with_facebook'), 0)
+Mobile.tap(findTestObject('Android/Foody/Login/btn_connect_with_google'), 15)
+
+Mobile.tap(findTestObject('Android/Foody/Login/btn_choose_account_google'), 0)
+
+//Mobile.setText(findTestObject('Android/Foody/Login/txt_email_facebook'), 'septiansembilanlimaa@yahoo.com', 
+//    0)
+//
+//Mobile.setEncryptedText(findTestObject('Android/Foody/Login/txt_password_facebook'), 'QsniP1ckLMYlbDg7et4vNA==', 
+//    0)
+//Mobile.tap(findTestObject('Android/Foody/Login/btn_masuk_facebook'), 0)
+//
+//Mobile.tapAndHold(findTestObject('Android/Foody/Login/btn_lanjutkan_login_facebook'), 0, 30)
+//
+//Mobile.verifyElementExist(findTestObject('Android/Foody/Login/lbl_username_facebook'), 0)
+//Mobile.verifyElementText(findTestObject('Android/Foody/Login/lbl_username_facebook'), 'Sofie Pratiwi')
+//def actual = Mobile.getText(findTestObject('Android/Foody/Login/lbl_username_facebook'), 0)
+//
+//def expected = Mobile.getText(findTestObject('Android/Foody/Login/lbl_username_facebook'), 
+//    0)
+def actual = Mobile.getText(findTestObject('Android/Foody/Login/lbl_username_google'), 
     0)
 
-Mobile.setEncryptedText(findTestObject('Object Repository/Android/Foody/android.widget.EditText (1)'), '7ZTatM+q3vAyZQd2ps7zRg==', 
+def expected = Mobile.getText(findTestObject('Android/Foody/Login/lbl_username_google'), 
     0)
-
-Mobile.tap(findTestObject('Object Repository/Android/Foody/android.widget.Button - Masuk'), 0)
-
-Mobile.tapAndHold(findTestObject('Object Repository/Android/Foody/android.widget.Button - Lanjutkan'), 0, 30)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Android/Foody/android.widget.TextView - Sofie Pratiwi'), 0)
-
-//Mobile.verifyElementText(findTestObject('Android/Foody/android.widget.TextView - Sofie Pratiwi'), 'Sofie Pratiwi')
-
-def actual = Mobile.getText(findTestObject('Object Repository/Android/Foody/android.widget.TextView - Sofie Pratiwi'),
-	0)
-
-def expected = Mobile.getText(findTestObject('Object Repository/Android/Foody/android.widget.TextView - Sofie Pratiwi'),
-	0)
 
 Mobile.verifyMatch(actual, expected, false)
 
-Mobile.tap(findTestObject('Object Repository/Android/Foody/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Android/Foody/Login/btn_home'), 0)
 

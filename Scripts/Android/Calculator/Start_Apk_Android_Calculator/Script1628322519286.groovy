@@ -19,11 +19,10 @@ import org.openqa.selenium.Keys as Keys
 import java.nio.file.Path as Path
 import java.nio.file.Paths as Paths
 
-//Mobile.startApplication('C:\\Users\\asus\\Katalon Studio\\Cilsy_sofieGp\\Data Files\\Apk Android\\Simple Calculator.apk', 
-//    false)
-
 Path currentRelativePath = Paths.get("");
-String s = currentRelativePath.toAbsolutePath().toString();
+def s = currentRelativePath.toAbsolutePath().toString();
 System.out.println("Current absolute path is: " + s);
-s = s . "Data Files\\Apk Android\\Simple Calculator.apk"
-Mobile.startApplication('s', false)
+s = s + "\\Data Files\\Apk Android\\Simple Calculator.apk"
+System.out.println("Current absolute path is: " + s);
+Mobile.startApplication(s, false)
+
